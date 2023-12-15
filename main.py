@@ -1,3 +1,7 @@
 user_prompt = "Enter a ToDo:"
-text = input(user_prompt)
-print(text)
+text1 = input(user_prompt)
+text2 = input(user_prompt)
+text3 = input(user_prompt)
+
+textos = [text1, text2, text3]
+print(textos)
