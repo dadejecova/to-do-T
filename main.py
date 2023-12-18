@@ -2,6 +2,7 @@ todos = []
 
 while True:
     user_actions = input("Type add, show or exit: ")
+    user_actions = user_actions.strip()
 
     match user_actions:
         case 'add':
@@ -11,4 +12,6 @@ while True:
             print(todos)
         case 'exit':
             break
+        case _:
+            print("Buddy, you entered an unknown command")
 print('Bye!')
