@@ -13,5 +13,5 @@ while True:
         case 'exit':
             break
         case _:
-            print("Buddy, you entered an unknown command")
+            print("Buddy, you entered an unknown command.")
 print('Bye!')
