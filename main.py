@@ -10,7 +10,7 @@ while True:
             todos.append(todo)
         case 'show':
             for index, item in enumerate(todos):
-                print(index, '-', item)
+                print(index, '_', item)
         case 'exit':
             break
         case 'edit':
