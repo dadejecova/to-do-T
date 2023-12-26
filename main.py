@@ -1,7 +1,7 @@
 todos = []
 
 while True:
-    user_actions = input("Type add, show, edit or exit: ")
+    user_actions = input("Type add, show, edit, complete or exit: ")
     user_actions = user_actions.strip()
 
     match user_actions:
@@ -10,7 +10,8 @@ while True:
             todos.append(todo)
         case 'show':
             for index, item in enumerate(todos):
-                print(index, '_', item)
+                row = f"{index+1}-{item}"
+                print(row)
         case 'exit':
             break
         case 'edit':
@@ -18,6 +19,9 @@ while True:
             number = number - 1
             new_todo = input("Enter new ToDO: ")
             todos[number] = new_todo
+        case 'complete':
+            number = int(input("Number of the ToDo to complete"))
+            todos.pop(number-1)
         case _:
             print("Buddy, you entered an unknown command.")
 print('Bye!')
