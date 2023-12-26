@@ -1,4 +1,3 @@
-todos = []
 
 while True:
     user_actions = input("Type add, show, edit, complete or exit: ")
@@ -6,8 +5,15 @@ while True:
 
     match user_actions:
         case 'add':
-            todo = input("Enter a ToDo: ")
+            todo = input("Enter a ToDo: ") + "\n"
+
+            file = open('todos.txt', 'r')
+            todos = file.readlines()
+
             todos.append(todo)
+
+            file = open('todos.txt', 'w')
+            file.writelines(todos)
         case 'show':
             for index, item in enumerate(todos):
                 row = f"{index+1}-{item}"
