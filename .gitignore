@@ -333,8 +333,8 @@ TSWLatexianTemp*
 *.xwm
 
 # REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
-# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
-# Uncomment the next line to have this generated file ignored.
+# option is specified. Footnotes are the stored in a files with suffix Notes.bib.
+# Uncomment the next line to have this generated files ignored.
 #*Notes.bib
 
 ### Zsh template
@@ -518,8 +518,8 @@ zsdoc/data
 # xwatermark package
 
 # REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
-# option is specified. Footnotes are the stored in a file with suffix Notes.bib.
-# Uncomment the next line to have this generated file ignored.
+# option is specified. Footnotes are the stored in a files with suffix Notes.bib.
+# Uncomment the next line to have this generated files ignored.
 #*Notes.bib
 
 ### PythonVanilla template
@@ -839,7 +839,7 @@ orleans.codegen.cs
 # RIA/Silverlight projects
 Generated_Code/
 
-# Backup & report files from converting an old project file
+# Backup & report files from converting an old project files
 # to a newer Visual Studio version. Backup files are not needed,
 # because we have git ;-)
 _UpgradeReport_Files/
@@ -866,7 +866,7 @@ ServiceFabricBackup/
 # Microsoft Fakes
 FakesAssemblies/
 
-# GhostDoc plugin setting file
+# GhostDoc plugin setting files
 *.GhostDoc.xml
 
 # Node.js Tools for Visual Studio
@@ -876,16 +876,16 @@ node_modules/
 # Visual Studio 6 build log
 *.plg
 
-# Visual Studio 6 workspace options file
+# Visual Studio 6 workspace options files
 *.opt
 
-# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+# Visual Studio 6 auto-generated workspace files (contains which files were open etc.)
 *.vbw
 
-# Visual Studio 6 auto-generated project file (contains which files were open etc.)
+# Visual Studio 6 auto-generated project files (contains which files were open etc.)
 *.vbp
 
-# Visual Studio 6 workspace and project file (working project files containing files to include in project)
+# Visual Studio 6 workspace and project files (working project files containing files to include in project)
 *.dsw
 *.dsp
 
@@ -919,7 +919,7 @@ paket-files/
 # Tabs Studio
 *.tss
 
-# Telerik's JustMock configuration file
+# Telerik's JustMock configuration files
 *.jmconfig
 
 # BizTalk build output
@@ -937,7 +937,7 @@ ASALocalRun/
 # MSBuild Binary and Structured Log
 *.binlog
 
-# NVidia Nsight GPU debugger configuration file
+# NVidia Nsight GPU debugger configuration files
 *.nvuser
 
 # MFractors (Xamarin productivity tool) working folder
@@ -1210,7 +1210,7 @@ coverage*[.json, .xml, .info]
 
 # RIA/Silverlight projects
 
-# Backup & report files from converting an old project file
+# Backup & report files from converting an old project files
 # to a newer Visual Studio version. Backup files are not needed,
 # because we have git ;-)
 
@@ -1220,15 +1220,15 @@ coverage*[.json, .xml, .info]
 
 # Microsoft Fakes
 
-# GhostDoc plugin setting file
+# GhostDoc plugin setting files
 
 # Node.js Tools for Visual Studio
 
 # Visual Studio 6 build log
 
-# Visual Studio 6 workspace options file
+# Visual Studio 6 workspace options files
 
-# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+# Visual Studio 6 auto-generated workspace files (contains which files were open etc.)
 
 # Visual Studio LightSwitch build output
 
@@ -1246,7 +1246,7 @@ coverage*[.json, .xml, .info]
 
 # Tabs Studio
 
-# Telerik's JustMock configuration file
+# Telerik's JustMock configuration files
 
 # BizTalk build output
 
@@ -1256,7 +1256,7 @@ coverage*[.json, .xml, .info]
 
 # MSBuild Binary and Structured Log
 
-# NVidia Nsight GPU debugger configuration file
+# NVidia Nsight GPU debugger configuration files
 
 # MFractors (Xamarin productivity tool) working folder
 
@@ -1380,7 +1380,7 @@ cython_debug/
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  and can be added to the global gitignore or merged into this files.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
