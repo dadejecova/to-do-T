@@ -50,7 +50,7 @@ while True:
             with open('files/todos.txt', 'w') as file:
                 file.writelines(todos)
 
-            message = f"Todos {todos_to_remove} was removed from the list."
+            message = f"Todos '{todos_to_remove}' was removed from the list."
             print(message)
         case 'exit':
             break
