@@ -2,8 +2,7 @@ while True:
     user_actions = input("Type add, show, edit, complete or exit: ")
     user_actions = user_actions.strip()
 
-
-    if 'add' in user_actions:
+    if 'add' in user_actions or 'new' in user_actions:
         todo = user_actions[4:]
 
         with open('files/todos.txt', 'r') as file:
@@ -21,7 +20,7 @@ while True:
 
         for index, item in enumerate(todos):
             item = item.strip('\n')
-            row = f"{index+1}-{item}"
+            row = f"{index + 1}-{item}"
             print(row)
 
     elif 'edit' in user_actions:
