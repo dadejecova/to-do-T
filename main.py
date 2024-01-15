@@ -64,5 +64,5 @@ while True:
     elif user_actions.startswith('exit'):
         break
     else:
-        print("Command is not valid")
+        print("Command is not valid.")
 print('Bye!')
