@@ -7,3 +7,6 @@ ahora nuevamente vemos el campo 3 mal
 todo ok
 another edith w def rn
 new todo with def
+now using a filepath
+new edit using def W
+using new def 4 write
