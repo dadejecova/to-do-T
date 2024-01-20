@@ -11,6 +11,12 @@ def write_todos(todos_arg,filepath="files/todos.txt"):
         file_local.writelines(todos_arg)
 
 
+text_comments = """
+This tex is an example of 
+multi lines
+comments
+"""
+print(text_comments)
 while True:
     user_actions = input("Type add, show, edit, complete or exit: ")
     user_actions = user_actions.strip()
