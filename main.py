@@ -1,28 +1,10 @@
-def get_todos(filepath="files/todos.txt"):
-    """Read textfile and return lines"""
-    with open(filepath, 'r') as file_local:
-        todos_local = file_local.readlines()
-    return todos_local
-
-
-def write_todos(todos_arg,filepath="files/todos.txt"):
-    """write in textfile"""
-    with open(filepath, 'w') as file_local:
-        file_local.writelines(todos_arg)
-
-
-text_comments = """
-This tex is an example of 
-multi lines
-comments
-"""
-print(text_comments)
+from functions import get_todos, write_todos
 while True:
     user_actions = input("Type add, show, edit, complete or exit: ")
     user_actions = user_actions.strip()
 
     if user_actions.startswith('add'):
-        todo = user_actions[4:]
+        todo = user_actions[4:].capitalize()
 
         todos = get_todos()
 
@@ -47,7 +29,7 @@ while True:
             todos = get_todos()
 
             new_todo = input("Enter new ToDO: ")
-            todos[number] = new_todo + '\n'
+            todos[number] = new_todo.capitalize() + '\n'
 
             write_todos(todos)
 

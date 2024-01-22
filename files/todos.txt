@@ -10,3 +10,7 @@ new edit using def W
 using new def 4 write
 test with no path
 edit with no route
+Using separate documents
+Using capitalize
+All in minus (using capitalize)
+Edit using capitalize
