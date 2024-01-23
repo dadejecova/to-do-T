@@ -14,3 +14,6 @@ Using separate documents
 Using capitalize
 All in minus (using capitalize)
 Edit using capitalize
+Filepath in a var
+Now with time. Jan 22, 2024 20:49:18.
+New value edited. Jan 22, 2024 20:49:18.

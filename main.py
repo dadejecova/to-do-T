@@ -1,4 +1,8 @@
 import functions
+import time
+
+now = time.strftime("%b %d, %Y %H:%M:%S")
+print(now)
 while True:
     user_actions = input("Type add, show, edit, complete or exit: ")
     user_actions = user_actions.strip()
@@ -8,7 +12,7 @@ while True:
 
         todos = functions.get_todos()
 
-        todos.append(todo + '\n')
+        todos.append(todo + '. ' + now + '.' + '\n')
 
         functions.write_todos(todos)
 
@@ -29,7 +33,7 @@ while True:
             todos = functions.get_todos()
 
             new_todo = input("Enter new ToDO: ")
-            todos[number] = new_todo.capitalize() + '\n'
+            todos[number] = new_todo.capitalize() + '. ' + now + '.' + '\n'
 
             functions.write_todos(todos)
 
