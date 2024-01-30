@@ -1,6 +1,8 @@
+# ToDos Logic
+
 import functions
 import time
-#27/1/24
+
 now = time.strftime("%b %d, %Y %H:%M:%S")
 print(now)
 while True:
