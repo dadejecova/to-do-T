@@ -1,12 +1,13 @@
 # ToDos Desktop GUI
 
 import functions
-import PySimpleGUI as sg
+import PySimpleGUI as Sg
 
-label = sg.Text("Type in a ToDo")
-input_box = sg.InputText(tooltip="Enter ToDo")
-add_button = sg.Button("Add")
+label = Sg.Text("Type in a ToDo")
+input_box = Sg.InputText(tooltip="Enter ToDo")
+add_button = Sg.Button("Add")
 
-window = sg.Window('My ToDo App', layout=[[label],[input_box,add_button]])
+window = Sg.Window('My ToDo App', layout=[[label], [input_box, add_button]])
 window.read()
+print("Hello")
 window.close()
