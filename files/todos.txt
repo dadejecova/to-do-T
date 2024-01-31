@@ -9,10 +9,9 @@ Using capitalize
 All in minus (using capitalize)
 Edit using capitalize
 Filepath in a var
-Now with time. Jan 22, 2024 20:49:18.
-New value edited. Jan 22, 2024 20:49:18.
+23 New value edited. Jan 22, 2024 20:49:18.
 Edited options
-New Todo with edit in real time - Jan 31, 2024 15:20
+asdasdasdasdasd 
 Bug with ToDo Fixed - Jan 31, 2024 15:22
 bug with \n in edit (invisible) - Jan 31, 2024 15:48
 edit with no bugs
