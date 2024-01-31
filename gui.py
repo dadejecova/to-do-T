@@ -44,5 +44,5 @@ while True:
         case Sg.WINDOW_CLOSED:
             break
 
-
+# Close App
 window.close()

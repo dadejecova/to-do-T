@@ -15,3 +15,5 @@ Edited options
 New Todo with edit in real time - Jan 31, 2024 15:20
 Bug with ToDo Fixed - Jan 31, 2024 15:22
 bug with \n in edit (invisible) - Jan 31, 2024 15:48
+edit with no bugs
+ - Jan 31, 2024 17:10
