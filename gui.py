@@ -10,9 +10,12 @@ add_button = Sg.Button("Add")
 list_box = Sg.Listbox(values=functions.get_todos(), key='todos',
                       enable_events=True, size=[45,10])
 edit_button = Sg.Button("Edit")
+complete_button = Sg.Button("Complete")
 
 window = Sg.Window('My ToDo App',
-                   layout=[[label], [input_box, add_button], [list_box, edit_button]],
+                   layout=[[label],
+                           [input_box, add_button],
+                           [list_box, edit_button, complete_button]],
                    font=('Helvetica', 15))
 
 # Just takes the time that the app was executed
@@ -39,6 +42,8 @@ while True:
             todos[index] = new_todo
             functions.write_todos(todos)
             window['todos'].update(values=todos)
+       ## case "Complete":
+
         case 'todos':
             window['ToDo'].update(value=values['todos'][0])
         case Sg.WINDOW_CLOSED:
