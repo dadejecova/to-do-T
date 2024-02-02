@@ -1,18 +1,4 @@
-Prepare
-Need to be eliminated again Error?
-new edit using def W
-using new def 4 write
-test with no path
-edit with no bugs
-Using separate documents
-Using capitalize
-All in minus (using capitalize)
-Edit using capitalize
 Filepath in a var
-23 New value edited. Jan 22, 2024 20:49:18.
 Edited options
-asdasdasdasdasd 
-Bug with ToDo Fixed - Jan 31, 2024 15:22
-bug with \n in edit (invisible) - Jan 31, 2024 15:48
 edit with no bugs
- - Jan 31, 2024 17:10
+Test with complete Button
