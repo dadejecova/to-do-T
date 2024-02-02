@@ -7,19 +7,21 @@ Sg.theme("DarkPurple4")
 clock = Sg.Text('', key='clock')
 label = Sg.Text("Type a ToDo")
 input_box = Sg.InputText(tooltip="Enter ToDo", key="ToDo")
-add_button = Sg.Button("Add", size=10)
+add_button = Sg.Button(key="Add", size=2, image_source='add.png',
+                       mouseover_colors='LightBlue2', tooltip='Add ToDo')
 
 list_box = Sg.Listbox(values=functions.get_todos(), key='todos',
                       enable_events=True, size=[45, 10])
 edit_button = Sg.Button("Edit")
-complete_button = Sg.Button("Complete")
+complete_button = Sg.Button(key="Complete", size=2, image_source='complete.png',
+                       mouseover_colors='LightBlue2', tooltip='Complete ToDo')
 exit_button = Sg.Button("Exit")
 
 window = Sg.Window('A random ToDo App',
                    layout=[[clock],
                            [label],
-                           [input_box, add_button],
-                           [list_box, edit_button, complete_button],
+                           [input_box, add_button, edit_button],
+                           [list_box, complete_button],
                            [exit_button]],
                    font=('Helvetica', 15))
 
